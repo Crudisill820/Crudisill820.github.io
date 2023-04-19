@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html language="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Quiz</title>
+	<!--Connor Rudisill, CSCE 102, Section 15, project-->
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Main Heading</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+	<div class="container">
+	<section class="col1">
+	<h2>Website Development Quiz</h2>
+	<p>What is the proper tag for a paragraph in HTML?</p>
+	<select id="q1">
+	<option>text</option>
+	<option>&lt;p&gt;</option>
+	<option>&lt;paragrpah&gt;</option>
+	<option>p</option>
+	</select>
+	<p>What is the advantage of a class compared to an ID?</p>
+	<select id="q2">
+	<option>classes can only be use once</option>
+	<option>classes make my text lowercase</option>
+	<option>classes are reusable</option>
+	<option>classes code for me</option>
+	<option>classes are not even a thing</option>
+	</select>
+<p>What is the CSS code option that allows me to make columns?</p>	
+	<select id="q3">
+	<option >display:flex</option>
+	<option>flex:box</option>
+	<option>column:make</option>
+	<option>make column</option>
+	</select>
+	<p>What are the two tags used to make the different types of lists?</p>
+	<select id="q4">
+	<option>list and list1</option>
+	<option>option and item</option>
+	<option>list and ol</option>
+	<option>ul and list</option>
+	<option >ul and ol</option>
+	</select>
+	<p>What is the tag used for links?</p>
+	<select id="q5">
+	<option>link</option>
+	<option >href</option>
+	<option>#</option>
+	<option>nav</option>
+	</select>
+	<p><button onclick="showResults()">Submit Quiz</button></p>
+	</section>
+	<section class="col1" id="results">
+	<p id="c1"></p>
+	<p id="c2"></p>
+	<p id="c3"></p>
+	<p id="c4"></p>
+	<p id="c5"></p>
+	<p id="total"></p>
+	</section
+	</div>
+	</main>
+	<footer>
+		<p>&copy;Connor Rudisill</p>
+	</footer>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
